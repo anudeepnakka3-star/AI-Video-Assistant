@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded/generated media
+downloades/
+downloads/
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.avi
+
+# Vector database and model/cache data
+vector_db/
+*.sqlite3
+.chroma/
+.cache/
+
+# Logs and reports
+*.log
+logs/
+reports/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
