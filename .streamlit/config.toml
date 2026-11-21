@@ -8,3 +8,5 @@ font = "sans serif"
 
 [server]
 maxUploadSize = 1024
+fileWatcherType = "none"
+
